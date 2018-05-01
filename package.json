@@ -1,0 +1,29 @@
+{
+  "name": "crayzy",
+  "version": "0.1.0",
+  "main": "server/index.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "postman-collection": "^3.0.8",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-inline-editing": "^1.0.10",
+    "react-scripts": "1.1.4",
+    "riek": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3005",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
